@@ -1,0 +1,9 @@
+
+<h1>User Profile</h1>
+
+<h2>Name: <%= @user.name %></h2>
+
+<% if @user.is_admin?  %>
+  <h2>Role: <%= "Admin" %></h2>        
+<% end %>
+
